@@ -1,0 +1,468 @@
+.subtext {
+	width: 45%;
+	margin-top: 7px;
+}
+
+
+.clip.empty {
+	position: relative;
+	z-index: 2;
+	background: #58c9aa;
+	margin-top: -50px;
+	min-height: 420px;
+}
+
+.how-to-book {
+	background-image: url('../img/how-to-book.jpg');
+	padding: 165px 0 190px 0;
+	margin-top: -50px;
+}
+
+.how-to-work {
+	background-image: url('../img/how-to-work.jpg');
+	padding: 175px 0 190px 0;
+	margin-top: -90px;
+}
+
+#petsavacy-services .green-item img  {
+	height: auto;
+}
+
+
+.how-to-work .flex {
+	margin-bottom: 30px;
+}
+
+.book-item h6 {
+	font-family: 'proximanovabold';
+	color: #58c9aa;
+	margin: 33px 0 20px 0;
+}
+
+.book-item {
+	position: relative;
+	width: 33%;
+	margin-top: 50px;
+}
+
+.book-item p {
+	margin-top: 0;
+    line-height: 1.7;
+}
+
+.book-item p:last-child {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.book-item img {
+	height: 75px;
+	width: auto;
+	margin: 0 auto;
+}
+
+.step {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #58c9aa;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+
+
+.step::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 50%;
+  height: 3px;
+  background: #58c9aa;
+}
+
+.book-item:last-child .step::after {
+	display: none;
+}
+
+.step p {
+	z-index: 3;
+}
+
+.content {
+	margin-top: 30px;
+}
+
+.green-item {
+	width: 49%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #effaf7;
+	border: 1px solid #d5f1ea;
+	box-shadow: 0 0 4px #d5f1ea;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.cities h3 {
+	text-transform: none;
+}
+
+.green-item a {
+	font-family: 'proximanovabold';
+	color: #58c9aa;
+}
+
+.green-item a:hover {
+	color: #000;
+}
+/*
+.no-more .green-item {
+	width: 100%;
+}*/
+
+.no-more.other .green-item {
+	width: 100%;
+}
+
+.subb {
+	margin-top: 15px;
+}
+
+.no-more .green-item {
+    margin-top: 20px;
+}
+/*
+.no-more .green-item:first-child {
+	margin-top: 0;
+}
+*/
+.green-item .info {
+	padding-left: 30px;
+}
+
+.green-circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background: #58c9aa;
+	border: 1px solid #58c9aa;
+}
+
+.green-circle p {
+	font-family: 'proxima_nova_thin';
+	font-size: 31px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.info {
+	width: 80%;
+}
+
+.info h5 {
+	/*font-family: 'proximanovabold';*/
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.info .g-info {
+ font-size: 15px;
+ margin-top: 7px;
+}
+
+.back .green-item {
+  box-shadow: none !important;
+  padding: 17px;
+}
+
+.back .green-item .info {
+	padding-left: 17px;
+}
+
+.no-more {
+	padding: 150px 0 120px 0;
+}
+
+.no-more {background: #fff;
+	clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -moz-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -ms-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -o-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+   margin-top: -80px;
+}
+
+.back {
+	clip-path: polygon(0 0%, 100% 6%, 100% 90%, 0 94%);
+	 -webkit-clip-path: polygon(0 0%, 100% 6%, 100% 90%, 0 94%);
+    -moz-clip-path: polygon(0 0%, 100% 6%, 100% 90%, 0 94%);
+    -ms-clip-path: polygon(0 0%, 100% 6%, 100% 90%, 0 94%);
+    -o-clip-path: popolygon(0 0%, 100% 6%, 100% 90%, 0 94%);
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0 220px 0;
+}
+
+.safety.back {
+	background-image: url(../img/safety.jpg);
+}
+
+.back-content {
+	margin-top: 20px;
+}
+
+.back .green-item {
+	width: 49%;
+	margin-top: 25px;
+}
+
+.green-item img {
+	height: 32px;
+}
+.cities-content.flex {
+	align-items: normal;
+}
+
+.cities {
+	background: #2ea181;
+	padding: 150px 0 170px 0;
+	margin-top: -90px;
+}
+
+.cities-content {
+	margin-top: 35px;
+}
+
+.cities li:before {
+	display: none;
+}
+
+.cities li {
+	font-size: 12px;
+	padding-bottom: 7px;
+}
+
+.cities ul {
+	width: 16%;
+	border-left: 1px solid #6dbda7;
+	padding-left: 17px;
+	margin-top: 15px;
+}
+
+.cities h4 {
+	margin-top: 70px;
+}
+
+.btn-container .button.pad {
+	margin-top: 30px !important;
+}
+
+.cities .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.becomesitter h3 {
+	font-family: 'proximanova_extrabold';
+	filter: drop-shadow(0 0 5px #fff);
+	text-shadow: 1px 1px 15px rgba(255,255,255,0.7);
+}
+
+.head-text {
+	font-family: 'proxima_nova_thin';
+	line-height: 1.4;
+	margin: 7px 0;
+}
+
+.col {
+	width: 50%;
+	padding: 20px 0;
+}
+
+.col ul {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.col ul li {
+	padding-bottom: 10px;
+}
+
+.col ul li:last-child {
+	padding-bottom: 0;
+}
+
+.col:first-child {
+	border-right: 1px solid #b7e8db;
+}
+
+.white-block {
+	padding: 40px;
+}
+
+.reviews {
+	background: #58c9aa;
+	padding: 290px 0 160px 0;
+	margin-top: -90px;
+}
+
+.img-container {
+	height: 370px;
+	width: 370px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.rev-text {
+	margin-top: 45px;
+}
+
+.reviews-item {
+	width: 50%;	
+	margin-top: 70px;
+}
+
+.rev-info {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.yellow {
+	font-family: 'proximanovabold';
+	font-size: 12px;
+	color: #fff;
+	letter-spacing: 1px;
+	background: #ffba00;
+	border-radius: 10px;
+	padding: 10px 15px;
+	margin-top: 0;
+}
+
+.create-profile {
+	background: #2ea181;
+	padding: 120px 0;
+	margin-top: -100px;
+}
+
+
+@media (max-width:1260px){
+	.info {width: 75%;}
+}
+
+@media (max-width:960px){
+	.book-item {
+	width: 80%;
+	border: 3px solid #58c9aa;
+    padding: 40px 20px;margin: 0 auto;
+    padding-top: 80px;
+    margin-top: 95px;}
+    .step {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40px;}
+    .step::after {display: none;}
+    .book-item::after {
+    	content: '';
+    	width: 3px;
+    	height: 95px;
+    	position: absolute;
+    	bottom: -95px;
+    	background: #58c9aa;
+    }
+    .book-item:last-child::after {display: none;}
+    .how-to-work .book-item {padding-top: 45px;}
+    .green-item .info { width: 75%;padding-left: 15px;}
+    .img-container{width: 250px; height: 250px;}
+    .becomesitter .white-block {padding: 30px 15px;}
+    .col ul {width: 90%;}
+    .revies {padding: 270px 0 150px 0;}
+    .yellow {margin-top: 20px;}
+}
+
+@media (max-width:768px){
+.green-item {width: 100% !important;}
+h1.fs-40 {font-size: 35px;}
+.subtext {width: 100%;}
+header .button {width: 100%;}
+.clip.empty {min-height: 570px;}
+.book-item, .book-item p:last-child {width: 100%;}
+.no-more {padding: 120px 0 100px 0;}
+.back .green-item {width: 100%;}
+.back {
+	clip-path: polygon(0 0%, 100% 4%, 100% 92%, 0 96%);
+	 -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 92%, 0 96%);
+    -moz-clip-path: polygon(0 0%, 100% 4%, 100% 92%, 0 96%);
+    -ms-clip-path: polygon(0 0%, 100% 4%, 100% 92%, 0 96%);
+    -o-clip-path: polygon(0 0%, 100% 4%, 100% 92%, 0 96%);
+    padding: 120px 0 200px 0;
+}
+.cities ul {width: 33%;}
+.cities {padding: 120px 0 160px 0;}
+.col {width: 100%;}
+.col:first-child {border-bottom: 1px solid #b7e8db; border-right: 0;
+	padding-bottom: 30px;
+    margin-bottom: 25px;}
+.reviews-item {width: 100%;}
+header h2, header h3 {text-align: center;}.head-text {width: 100%;}
+.white-block {padding: 50px 20px;}
+.create-profile {padding: 120px 0 140px 0;}
+}
+
+@media (max-width:510px){
+.clip.empty{min-height: 540px;}
+.how-to-book {padding: 140px 0 180px 0;}
+.no-more {
+	clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0 97%);
+    -webkit-clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0 97%);
+    -moz-clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0 97%);
+    -ms-clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0 97%);
+    -o-clip-path: polygon(0 3%, 100% 0%, 100% 100%, 0 97%);
+}
+.no-more {padding: 100px 0 100px 0;}
+.cities {margin-top: -120px;padding: 130px 0 150px 0;}
+.rev-info {width: 100%;}
+}
+
+@media (max-width:480px){
+.clip.empty {min-height: 590px;}
+}
+
+@media (max-width:450px){
+.clip.empty {min-height: 600px;}
+.green-item .info {width: 100%; padding-left: 0; margin-top: 20px;}
+.green-circle {margin: 0 auto;}
+.info h5 {text-align: center;}
+.cities ul {width: 47%;}
+.yellow {margin: 0 auto; margin-top: 20px;}
+.create-profile {margin-top: -130px;}
+}
+
+@media (max-width:405px){
+.clip.empty {min-height: 630px;}
+}
+
+@media (max-width:385px){
+.clip.empty {min-height: 690px;}
+.reviews-item:first-child {padding: 270px 0 40px 0;}
+}
+
+@media (max-width:330px){
+.clip.empty {min-height: 750px;}
+}

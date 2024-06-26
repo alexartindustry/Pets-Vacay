@@ -1,0 +1,253 @@
+.contact {
+    background: #58c9aa;
+    clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%);
+    -webkit-clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%);
+    -moz-clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%);
+    -ms-clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%);
+    -o-clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 92%);
+    margin-top: -70px;
+    padding: 140px 0 170px 0;
+}
+
+.whbg {
+    clip-path: none;
+    background-color: #fff;
+    padding: 200px 0 55px 0;
+}
+
+.contact-content {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 30px rgba(0,0,0,0.15);
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.opt {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-content form {
+    background: #f6fcfb;
+    width: 70%;
+    padding: 50px 40px;
+    height: 384px;
+}
+
+
+.whbg input {
+    margin-top: 10px;
+}
+
+.whbg .contact-content {
+    align-items: normal;
+}
+
+.whbg .contact-img {
+    width: 300px;
+    height: auto;
+}
+
+.contact-text {
+    flex: 1 1;
+    padding: 45px 30px;
+}
+
+.field2 {
+    flex: 1 1;
+    padding-right: 10px;
+}
+
+.field2:last-child {
+    padding-right: 0;
+}
+
+@media(max-width: 1260px) {
+    .field2 {
+        width: 50%;
+        flex: none;
+        padding-right: 15px;
+    }
+    .field2:nth-child(2n) {
+        padding-right: 0;
+    }
+}
+
+
+.contact .field2 input {
+    width: 100%;
+}
+
+.field2:last-child .button:last-child {
+    margin-left: 0;
+} 
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.field:first-child {
+    margin-top: 0;
+}
+
+.contact .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.contact input {
+    width: 77%;
+    height: 50px;
+    border: 1px solid #cfefe7;
+    border-radius: 10px;
+    padding: 0 25px;
+    outline: none;
+}
+
+.button:last-child {
+    margin-left: 20px;
+}
+
+.contact .button {
+    width: 300px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.whbg .button {
+    height: 50px;
+    padding-top: 3px;
+}
+
+.contact label {
+    width: 23%;
+    font-family: 'proximanovabold';
+    font-size: 18px;
+    color: #000;
+}
+
+.contact input {
+    width: 77%;
+    height: 50px;
+    border: 1px solid #cfefe7;
+    border-radius: 10px;
+    padding: 0 25px;
+    outline: none;
+}
+
+.contact-img {
+    width: 30%;
+    height: 384px;
+}
+
+.contact-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 960px) {
+.contact form, .contact-img {
+    height: 448px;
+}
+.field {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact input {
+    width: 100%;
+}
+.contact label {
+    width: auto;
+    margin-bottom: 5px;
+}
+.contact input {width: 100%;}
+.contact form, .contact-img {
+    height: 448px;
+}
+}
+
+@media (max-width: 768px) {
+.contact {
+    clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -moz-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -ms-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+    -o-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 95%);
+}
+.contact form, .contact-img {
+    width: 100%;
+    height: auto;
+}
+.button:last-child {
+    margin: 0;
+    margin-top: 10px;
+}
+.contact .button {
+    width: 100%;
+}
+.contact form, .contact-img {
+    width: 100%;
+    height: auto;
+}
+.contact-img img {
+    max-height: 270px;
+}
+}
+
+@media (max-width: 510px) {
+    .contact {
+        padding: 110px 0 130px 0;
+    }
+    .whbg {
+        padding: 160px 0 55px 0;
+    }
+    .contact-content form {
+        padding: 35px 20px;
+    }
+}
+
+@media(max-width: 960px) {
+   .whbg .contact-text, .whbg .contact-img {
+      width: 100%;
+   }
+   .whbg form {
+    height: auto;
+   }
+   .whbg .contact-img {
+    height: 400px;
+   }
+   .field2 {
+        width: 100%;
+        flex: none;
+        padding-right: 0;
+   }
+}  
+
+.whbg form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+@media(max-width: 510px) {
+    .contact-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
